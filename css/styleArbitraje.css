@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', ;
+}
+
+body {
+    height: 100vh;
+}
+
+.box {
+    margin: 10px;
+    border: 1px solid rgba(12, 131, 76, 0.4);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 15px 0px rgba(0, 0, 0, 0.06);
+    
+}
+
+.titulo {
+    height: 50px;
+    width: 100%;
+    text-align:center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1250px;
+}
+
+.box-content {
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.box-content .proces{
+    width: 50%;
+}
+
+.box-content  .proces2{
+    width: 25%;
+}
+
+.box-content  .proces3{
+    width: 25%;
+}
+
+
+.proces-cont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.proces-cont1{
+    width: 25%;
+}
+
+.proces-cont2 {
+    width: 75%;
+    flex-wrap: none;
+}
+
+.box-proces1 li{
+height: 50px;
+text-align: left;
+padding-top: 10px;
+
+
+}
+.box-proces2 img{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+.box-proces2{
+
+    height: 50px;
+    text-align: center;
+
+    }
+.box-proces2 li{
+    vertical-align:middle;
+}
+
+.proces-cont2 ul{
+    text-align: left center;
+} 
+
+.proces-cont2 ul li{
+    display:inline-block;
+    margin-left: 20px;
+   
+}
+
+
+
+.box-proces {
+    width: 100%;
+}
+
+.box-proces ul{
+    display:inline-block;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+.box2-3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seccion1 ul li {
+    height: 50px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.box-seccion{
+    display: block;
+    flex-wrap: none;
+}
+
+.seccion2 ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seccion2{
+    height: 50px;
+    padding-top: 10px;
+    margin-left: 15px;
+}
